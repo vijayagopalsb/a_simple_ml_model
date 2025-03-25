@@ -58,6 +58,11 @@ model.fit(X_train, y_train)
 # Making predictions using the Linear Regression Model
 y_pred_linear_regression = model.predict(X_test)
 
+mse = mean_squared_error(y_test, y_pred_linear_regression)
+r2 = r2_score(y_test, y_pred_linear_regression)
+print(f"Mean Squared Error: {mse}")
+print(f"R^2 Score: {r2}")
+
 # Plot a Graph for Visual Clearity
 # --------------------------------
 
