@@ -64,7 +64,7 @@ y_pred_linear_regression = model.predict(X_test)
 # Visualizing Actual vs. Predicted values
 plot.figure(figsize=(10, 6))
 plot.scatter(y_test, y_pred_linear_regression, alpha=0.5)
-# Arguments to plot 'k--' - K for color 'black', '--' for dashed line style, 'lw' for line width , default width is 1
+# Arguments to plot 'k--' - k for color 'black', '--' for dashed line style, 'lw' for line width , default width is 1
 plot.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], "k--", lw=3 )
 plot.xlabel("Actual")
 plot.ylabel("Predicted")
