@@ -164,12 +164,5 @@ This project demonstrates a basic implementation of a Linear Regression model fo
 - Using different machine learning models for comparison.
 - Performing feature engineering and hyperparameter tuning.
 
-### Mean Squared Error (MSE)
-The **Mean Squared Error (MSE)** measures the average squared difference between actual and predicted values. It quantifies how far the model's predictions deviate from the true values.
-
-MSE = (1/n) ∑<sub>i=1</sub><sup>n</sup> (y<sub>actual,i</sub> - y<sub>predicted,i</sub>)²
-
-📝 **Note:** A lower MSE indicates a better-performing model.
-
 
 
